@@ -1,7 +1,7 @@
 import { v4 as uuidV4 } from "uuid"
 
 type Task = {
-  id: string
+  id?: string
   title: string,
   completed: boolean,
   createdAt: Date
